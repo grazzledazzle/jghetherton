@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<article class="container mx-auto px-2 mt2 mb0">
+  <header>
+    <h1 class="h0 py-4 mt-3">{{ page.title }}</h1>
+  </header>
+
+
+  <div class="col-4 sm-width-full border-top-thin">
+  </div>
+
+  <div class="prose mb-4 py-4">
+
+    <a href="{{ page.buylink }}" class="image">
+    {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" style="width:395px;height:600px" /></span>{% endif %}
+    </a>
+
+    <p></p>
+
+    {{ content }}
+  </div>
+
+</article>
