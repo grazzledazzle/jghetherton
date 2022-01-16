@@ -15,12 +15,11 @@
 # in the templates via {{ site.myvariable }}.
 title: J.G. Hetherton
 description: The website of author J.G. Hetherton.
-baseurl: "jghetherton" # the subpath of your site, e.g. /blog
-url: "https://grazzledazzle.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_repo: jghetherton # the GitHub repo name for your project
 github_username: grazzledazzle
 
-remote_theme: broccolini/swiss
 
 # Optional social link, you can choose from the following options:
 # twitter (default), instagram, medium, or dribbble
