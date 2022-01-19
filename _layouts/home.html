@@ -5,6 +5,26 @@
 
   <body>
 
+    <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    /* Create three equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 5px;
+    }
+
+    .div-black {
+            background-color: #181818;
+        }
+    </style>
+
     <div>
 
       <header class="header-background">
@@ -13,14 +33,10 @@
         <div class="clearfix border-bottom-thick header-border">
           <ul class="list-reset right py-1 header-text font-smoothing">
             <li class="inline-block">
-              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ site.baseurl }}/what-lies-beneath">
+              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ site.baseurl }}/books">
                 Books
               </a>
-              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ site.baseurl }}/last-girl-gone">
-                Press & Reviews
-              </a>
-
-              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ site.baseurl }}/what-lies-beneath">
+              <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ site.baseurl }}/blog">
                 News & Events
               </a>
               <a class="align-middle link-primary mr-2 mr-lg-0 ml-lg-2" href="{{ site.baseurl }}/about">
@@ -61,8 +77,9 @@
                   {% include dot-accent.html %}
                 </div>
               </div>
+
               <!-- Set site description in config.yml -->
-              <!-- <p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p> -->
+              <!--<p class="h4 lh-condensed font-smoothing mt-2 py-1">{{ site.description }}</p> -->
               <!--line above is the original placement of site description-->
             </div>
 
@@ -81,6 +98,28 @@
 
         </div>
       </header>
+
+<!-- possible title like BOOKS here-->
+
+      <article class="container mx-auto px-2 mt2 sm-width-full center mr-lg-2 mt-3">
+
+      <div class="row">
+        <div class="column">
+          <!-- this is the org image styling
+            <img src="assets/last-girl-gone-cover.jpg" style="width:60%">
+            -->
+          <a href="{{ site.baseurl }}/what-lies-beneath" class="image">
+          <img src="assets/what-lies-beneath-cover.jpg" style="width:60%">
+          </a>
+        </div>
+        <div class="column">
+          <a href="{{ site.baseurl }}/last-girl-gone" class="image">
+          <img src="assets/last-girl-gone-cover.jpg" style="width:60%">
+
+      </div>
+
+      </article>
+
 
       <div class="container mx-auto px-2 py-4">
         {% for post in site.posts %}

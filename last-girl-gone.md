@@ -3,7 +3,7 @@ layout: book
 title: Last Girl Gone
 permalink: /last-girl-gone
 image: assets/last-girl-gone-cover.jpg
-buylink: https://www.amazon.com/Last-Girl-Gone-Laura-Chambers-ebook/dp/B075QJ3F6T
+buylink: https://www.penguinrandomhouse.com/books/622351/last-girl-gone-by-j-g-hetherton/9781683316176/
 ---
 
 **Sometimes the journey home is the most harrowing. In this pulse-pounding series debut, J.G. Hetherton weaves a chilling story about every parent’s nightmare.**

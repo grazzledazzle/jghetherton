@@ -1,21 +1,8 @@
 ---
-layout: page
+layout: bio
 title: About
 permalink: /about/
+image: assets/author-photo.jpg
 ---
 
-Swiss is a bold Jekyll theme inspired by Swiss design and the works of Massimo Vignelli. This theme lends itself well to sites heavy on written content.
-
-### Features:
-* Mobile-first design ensures this theme performs fastest on mobile while scaling elegantly to desktop-size screens.
-* Designed for blogs and sites heavy on written content, with bold typography styles, homepage summaries, and previous/next snippets.
-* Supports a wide range of HTML elements and markdown.
-* Flexible styles that can be reused for customization without adding additional CSS.
-* Simple styling for code snippets (if you want something with syntax highlighting, checkout ....)
-* Dynamically generated navigation links. See docs below for adding pages with specific post category for-loops.
-
-## Themes
-
-## Browser Support
-
-## Installation
+**J.G. Hetherton** was raised in rural Wisconsin, graduated from Northwestern University, and lived in Chicago for the better part of a decade. Along the way to his first novel, he dabbled in many different day jobs before moving to North Carolina for a girl. They live in Durham, North Carolina with their twin daughters, and when he’s not writing, you can find him on the hiking trail or sitting down with a good book.
