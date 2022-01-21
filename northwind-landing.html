@@ -1,0 +1,242 @@
+---
+permalink: /landing
+---
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+<!--some styling below
+	<link rel='stylesheet' id='wp-block-library-css'  href='https://read.macmillan.com/wp-includes/css/dist/block-library/style.min.css?ver=5.8.3' media='all' />
+<style id='wp-block-library-theme-inline-css'>
+#start-resizable-editor-section{display:none}.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-code{font-family:Menlo,Consolas,monaco,monospace;color:#1e1e1e;padding:.8em 1em;border:1px solid #ddd;border-radius:4px}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-pullquote{border-top:4px solid;border-bottom:4px solid;margin-bottom:1.75em;color:currentColor}.wp-block-pullquote__citation,.wp-block-pullquote cite,.wp-block-pullquote footer{color:currentColor;text-transform:uppercase;font-size:.8125em;font-style:normal}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;position:relative;font-style:normal}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-group.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto;opacity:.4}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table thead{border-bottom:3px solid}.wp-block-table tfoot{border-top:3px solid}.wp-block-table td,.wp-block-table th{padding:.5em;border:1px solid;word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-template-part.has-background{padding:1.25em 2.375em;margin-top:0;margin-bottom:0}#end-resizable-editor-section{display:none}
+-->
+
+<!-- links to the macmillan style sheets
+<link rel='stylesheet' id='popupaoc-public-style-css'  href='https://read.macmillan.com/wp-content/plugins/popup-anything-on-click/assets/css/popupaoc-public-style.css?ver=1.8' media='all' />
+<link rel='stylesheet' id='supapress-css'  href='https://read.macmillan.com/wp-content/plugins/supapress/includes/css/styles.min.css?ver=2.20.3' media='all' />
+<link rel='stylesheet' id='uaf_client_css-css'  href='https://read.macmillan.com/wp-content/uploads/useanyfont/uaf.css?ver=1642692718' media='all' />
+<link rel='stylesheet' id='wppopups-base-css'  href='https://read.macmillan.com/wp-content/plugins/wp-popups-lite/src/assets/css/wppopups-base.css?ver=2.0.3.7' media='all' />
+<link rel='stylesheet' id='google-fonts-css'  href='https://fonts.googleapis.com/css?family=Cormorant%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CProza+Libre%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i%7CBattambang%3A100%2C100i%2C200%2C200i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%2C900i&#038;ver=5.8.3' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css'  href='https://read.macmillan.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/all.min.css?ver=2.5.1.1' media='all' />
+<link rel='stylesheet' id='font-awesome-css'  href='https://read.macmillan.com/wp-content/plugins/bb-plugin/fonts/fontawesome/5.15.4/css/v4-shims.min.css?ver=2.5.1.1' media='all' />
+<link rel='stylesheet' id='jquery-magnificpopup-css'  href='https://read.macmillan.com/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css?ver=2.5.1.1' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='https://read.macmillan.com/wp-content/themes/bb-theme/css/bootstrap.min.css?ver=1.7.8' media='all' />
+<link rel='stylesheet' id='fl-automator-skin-css'  href='https://read.macmillan.com/wp-content/uploads/bb-theme/skin-61e556e8a19fc.css?ver=1.7.8' media='all' />
+<script src='https://read.macmillan.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script src='https://read.macmillan.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script src='https://read.macmillan.com/wp-includes/js/imagesloaded.min.js?ver=5.8.3' id='imagesloaded-js'></script>
+<link rel="https://api.w.org/" href="https://read.macmillan.com/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://read.macmillan.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://read.macmillan.com/wp-includes/wlwmanifest.xml" />
+<link rel='shortlink' href='https://read.macmillan.com/?p=1880127' />
+<link rel="alternate" type="application/json+oembed" href="https://read.macmillan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fread.macmillan.com%2Flp%2Fnorthwind%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://read.macmillan.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fread.macmillan.com%2Flp%2Fnorthwind%2F&#038;format=xml" />
+-->
+
+<style>
+  html {font-size: 16px;}
+</style>
+
+<!-- link to another style sheet
+  <style>
+    .recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>    <link href="https://read.macmillan.com/wp-content/themes/bb-theme-child/landing-pages.css?ver=1.5" media="screen" rel="stylesheet"
+          type="text/css"/></style>
+          -->
+
+<style>
+        .lp__book-title {
+         color: #23485a;
+         font-family: 'Battambang';
+         font-weight: 700;
+                }
+
+
+
+
+
+        .lp__book-call-to-action {
+         color: #23485a;
+         font-family: 'Battambang';
+         font-weight: 700;
+                }
+
+
+
+
+
+        .lp__book-author-name {
+         color: #23485a;
+                }
+
+
+
+
+                body {
+         background-color: #9ba8d2;
+            background-image: none;
+                }
+
+
+
+
+    </style>
+
+
+<body>
+    <div class="lp__container">
+        <article class="lp__content">
+
+
+            <header class="lp__header">
+                                    <h1 class="lp__book-title">NORTHWIND</h1>
+
+                                                            <h3 class="lp__book-author-name"><span>A final masterpiece from literary legend​ Gary Paulsen​</span></h3>
+                                                </header>
+
+
+            <div class="lp__column-container">
+                                    <div class="lp__column-left">
+                                                    <img src="https://images.macmillan.com/folio-assets/macmillan_us_frontbookcovers_350W/9780374314200.jpg" alt="NORTHWIND"/>
+                                                                                            </div>
+
+                <div class="lp__column-right">
+
+                                            <div class="lp__book-description">
+                            <div><strong>The<em> New York Times</em> Bestseller</strong></div>
+<div><strong>The #1 Indie Bestseller</strong></div>
+<div>​​</div>
+<div>“<i>Northwind</i>—a tale of survival as masterfully understated as the man himself—brings the author’s career, and his life, full circle<span class="gmail_default"> . . .  <strong>A grand and worthy journey</strong>.</span><span class="gmail_default">”</span></div>
+<div><span class="gmail_default">—<i>The New York Times</i></span></div>
+<div>​</div>
+<div class="gmail_default">★ “<strong>Beautifully written</strong> . . . <strong>Paulsen at his best</strong>.”</div>
+<div class="gmail_default">—<i>Booklist</i></div>
+<div>​</div>
+<div class="gmail_default">★ “<strong>A captivating saga of survival and self-discovery</strong>.”</div>
+<div class="gmail_default">—<i>Publishers Weekly</i></div>
+<div>​</div>
+<div>★ “<strong>A voyage both singular and universal</strong>.”</div>
+<div>—<i>Kirkus Reviews</i></div>
+<p></p>
+<div>The three-time Newbery Honor–winning author of <em>Hatchet</em><span class="gmail_default">​ ​</span>adds to his legacy of renowned survival stories with this stunning adventure.</div>
+                        </div>
+
+                                                                    <h3 class="lp__book-call-to-action">Order Your Copy Now</h3>
+
+                        <section
+                                class="js-sales-force-retailer-tracking lp__buy-links buy-links "
+                        >
+
+
+                                <a onClick="ga('send', 'event', 'BuyLink', 'amazon', '9780374314200 Gary Paulsen');LiveIntentConversionPixel();FBConversion();"
+                                   class="js-retailer buy-links__link  buy-links__link--image"
+                                   href="https://www.amazon.com/dp/0374314209?tag=macsupaduinstalpa-20" title="Amazon"
+                                   target="_blank"
+                                   data-isbn13="9780374314200"
+                                   data-price="$17.99"
+                                    style="background-image: url(https://read.macmillan.com/wp-content/themes/bb-theme-child/public/img/buy-buttons/amazon.png);"                                >
+
+
+
+                                                                    </a>
+
+
+
+
+                                <a onClick="ga('send', 'event', 'BuyLink', 'barnes-and-noble', '9780374314200 Gary Paulsen');LiveIntentConversionPixel();FBConversion();"
+                                   class="js-retailer buy-links__link  buy-links__link--image"
+                                   href="https://www.barnesandnoble.com/s/9780374314200" title="Barnes & Noble"
+                                   target="_blank"
+                                   data-isbn13="9780374314200"
+                                   data-price="$17.99"
+                                    style="background-image: url(https://read.macmillan.com/wp-content/themes/bb-theme-child/public/img/buy-buttons/barnes-and-noble.png);"                                >
+
+
+
+                                                                    </a>
+
+
+
+
+                                <a onClick="ga('send', 'event', 'BuyLink', 'booksamillion', '9780374314200 Gary Paulsen');LiveIntentConversionPixel();FBConversion();"
+                                   class="js-retailer buy-links__link  buy-links__link--image"
+                                   href="http://www.booksamillion.com/product/9780374314200" title="BooksaMillion"
+                                   target="_blank"
+                                   data-isbn13="9780374314200"
+                                   data-price="$17.99"
+                                    style="background-image: url(https://read.macmillan.com/wp-content/themes/bb-theme-child/public/img/buy-buttons/booksamillion.png);"                                >
+
+
+
+                                                                    </a>
+
+
+
+
+                                <a onClick="ga('send', 'event', 'BuyLink', 'bookshop', '9780374314200 Gary Paulsen');LiveIntentConversionPixel();FBConversion();"
+                                   class="js-retailer buy-links__link  buy-links__link--image"
+                                   href="https://bookshop.org/a/3214/9780374314200" title="Bookshop"
+                                   target="_blank"
+                                   data-isbn13="9780374314200"
+                                   data-price="$17.99"
+                                    style="background-image: url(https://read.macmillan.com/wp-content/themes/bb-theme-child/public/img/buy-buttons/bookshop.png);"                                >
+
+
+
+                                                                    </a>
+
+
+
+
+                                <a onClick="ga('send', 'event', 'BuyLink', 'indiebound', '9780374314200 Gary Paulsen');LiveIntentConversionPixel();FBConversion();"
+                                   class="js-retailer buy-links__link  buy-links__link--image"
+                                   href="http://www.indiebound.org/book/9780374314200" title="IndieBound"
+                                   target="_blank"
+                                   data-isbn13="9780374314200"
+                                   data-price="$17.99"
+                                    style="background-image: url(https://read.macmillan.com/wp-content/themes/bb-theme-child/public/img/buy-buttons/indiebound.png);"                                >
+
+
+
+                                                                    </a>
+
+
+
+
+                                <a onClick="ga('send', 'event', 'BuyLink', 'powells', '9780374314200 Gary Paulsen');LiveIntentConversionPixel();FBConversion();"
+                                   class="js-retailer buy-links__link  buy-links__link--image"
+                                   href="http://www.powells.com/partner/33241/biblio/9780374314200" title="Powells"
+                                   target="_blank"
+                                   data-isbn13="9780374314200"
+                                   data-price="$17.99"
+                                    style="background-image: url(https://read.macmillan.com/wp-content/themes/bb-theme-child/public/img/buy-buttons/powells.png);"                                >
+
+
+
+                                                                    </a>
+
+
+                                                    </section>
+
+
+                </div>
+            </div>
+
+
+            <footer class="lp__footer">
+                <a href="http://us.macmillan.com/terms-of-use" title="Terms of use" target="_blank">Terms of Use</a>
+                <span>&#8226;</span>
+                <a href="http://us.macmillan.com/privacy-notice" title="Privacy Notice" target="_blank">Privacy
+                    Notice</a>
+                <span>&#8226;</span>
+                <a href="https://us.macmillan.com/privacy-notice/#cookies" title="Ads and Cookies" target="_blank">Ads
+                    and Cookies</a>
+                <span>&#8226;</span>
+                <p>&copy;Macmillan 2022</p>
+            </footer>
+
+        </article>
+    </div>
+  </body>
+
+</html>

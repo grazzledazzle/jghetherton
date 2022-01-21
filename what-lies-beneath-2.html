@@ -1,0 +1,65 @@
+---
+layout: default
+title: WHAT LIES BENEATH
+permalink: /wlb
+image: assets/what-lies-beneath-cover.jpg
+buylink: https://www.penguinrandomhouse.com/books/624979/what-lies-beneath-by-j-g-hetherton/9781643850207/
+---
+
+<style>
+h1 {text-align: center;
+  font-size: 64px;
+}
+
+h2 {text-align: center;
+  font-family: georgia;
+}
+
+.centered {
+  display: flex;
+    justify-content: center;
+}
+
+.container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      .image1 {
+        flex-basis: 40%
+      }
+      .text1 {
+        font-size: 20px;
+        padding-left: 20px;
+      }
+
+</style>
+
+
+<article class="container mx-auto px-2 mt2 mb0">
+  <header>
+    <h1 class="py-1 mt-3">WHAT LIES BENEATH</h1>
+  </header>
+
+<div class="centered">
+  <div class="col-4 sm-width-full border-top-thin">
+  </div>
+  </div>
+
+  <h2>Available July 22</h2>
+
+  <div class="prose mb-4 py-4">
+
+    <a href="{{ page.buylink }}" class="image">
+    {% if page.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ page.image }}" style="width:40%" /></span>{% endif %}
+    </a>
+
+
+    <p></p>
+
+
+    {{ CONTENT }}
+
+  </div>
+
+</article>
