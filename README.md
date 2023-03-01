@@ -1,4 +1,4 @@
-#My Author Website
+# My Author Website
 
 Hi, I'm **J.G. Hetherton**, *Audible* bestselling author of *Last Girl Gone*, a *Sun-Sentinel* Top Debut Mystery of 2018, and *What Lies Beneath*, nominated for the 2023 Beltie Prize for Best Mystery.
 
