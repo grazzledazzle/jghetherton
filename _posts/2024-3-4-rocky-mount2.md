@@ -7,4 +7,4 @@ categories: blog
 
 This Thursday, March 7th...**ONE NIGHT ONLY**.
 
-![image](/assets/rocky-mount-NATB-march-2024.jpeg)
+![image](/assets/rocky-mount-NATB-march-2024.jpeg){: width="750" }
