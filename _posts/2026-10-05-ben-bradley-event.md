@@ -1,6 +1,6 @@
 ---
 layout: category-post
-title: Author Panel at Daughters Coffee & Books
+title: THE DEVIL YOU KNOW at Quail Ridge Books
 date: 2026-10-05
 categories: blog
 ---
